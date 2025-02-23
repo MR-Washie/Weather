@@ -6,8 +6,6 @@ const formEle = document.querySelector("form")
 const imgIcon = document.querySelector(".icon")
 
 formEle.addEventListener("submit", (e)=>{
-    details.innerHTML = "";
-    cityNameEle.value = ""
     e.preventDefault()
     // console.log(cityNameEle.value);
     const cityValue = cityNameEle.value
